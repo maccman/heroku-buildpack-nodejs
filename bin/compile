@@ -30,10 +30,10 @@ run_npm() {
 unset GIT_DIR
 
 # config
-NODE_VERSION="0.6.10"
+NODE_VERSION="0.7.3"
 NPM_VERSION="1.1.0-3"
 SCONS_VERSION="1.2.0"
-S3_BUCKET="hakobera-heroku-node"
+S3_BUCKET="maccman-buildpack"
 
 # parse and derive params
 BUILD_DIR=$1
